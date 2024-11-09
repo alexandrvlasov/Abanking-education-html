@@ -28,7 +28,7 @@ button {
     width: 1224px;
     height: 48px;
 }
-.header-nav {
+.header__nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -40,13 +40,13 @@ button {
     gap: 12px;
 }
 
-.logo-name {
+.logo__name {
     font-weight: 600;
     font-size: 22px;
     line-height: 33px;
 }
 
-.site-navigation {
+.site__navigation {
     width: 431px;
     list-style: none;
     display: flex;
@@ -55,7 +55,7 @@ button {
     padding: 0;
 }
 
-.site-navigation a {
+.site__navigation a {
     text-decoration: none;
     font-weight: 500;
     opacity: 55%;
@@ -67,7 +67,7 @@ button {
     gap: 4px;
 }
 
-.chevron-down {
+.chevron__down {
     cursor: pointer;
     margin-top: 3px;
 }
@@ -86,7 +86,7 @@ button {
     font-weight: 600;
     cursor: pointer;
 }
-.sign-up {
+.sign__up {
     padding: 12px 28px;
     border-radius: 8px;
     border: none;
@@ -110,23 +110,23 @@ button {
     margin-bottom: 200px;
 }
 
-.basic-info {
+.basic__info {
     width: 600px;
     height: 354px;
 }
 
-.basic-info-title {
+.basic__info_title {
     font-weight: 500;
     font-size: 50px;
     line-height: 70px;
     margin-bottom: 30px;
 }
 
-.orange_dot {
+.orange__dot {
     color: #FF6E30;
 }
 
-.basic-info-quote {
+.basic__info_quote {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
@@ -134,7 +134,7 @@ button {
     opacity: 55%;
 }
 
-.info-search-container {
+.info__search_container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -146,12 +146,12 @@ button {
     border-radius: 15px;
 }
 
-.info-search {
+.info__search {
     display: flex;
     gap: 13px;
 }
 
-.info-search input {
+.info__search input {
     background-color: transparent;
     outline: none;
     border: none;
@@ -162,7 +162,7 @@ button {
     line-height: 21px;
 }
 
-.search-button {
+.search__button {
     width: 130.43px;
     height: 48px;
     font-weight: 600;
@@ -172,7 +172,7 @@ button {
     background-color: #FF6E30;
 }
 
-.info-social {
+.info__social {
   height: 58px;
   list-style: none;
   display: flex;
@@ -180,7 +180,7 @@ button {
   gap: 8px;
 }
 
-.info-social-item {
+.info__social_item {
     width: 58px;
     height: 58px;
     border-radius: 8px;
@@ -197,7 +197,7 @@ button {
     align-items: center;
 }
 
-.tools-title {
+.tools__title {
     width: 455px;
     height: 62px;
     font-weight: 500;
@@ -207,7 +207,7 @@ button {
     margin-bottom: 25px;
 }
 
-.tools-quote {
+.tools__quote {
     width: 427px;
     height: 60px;
     font-size: 18px;
@@ -218,7 +218,7 @@ button {
     text-align: center;
 }
 
-.tools-grid {
+.tools__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);
@@ -237,13 +237,13 @@ button {
     overflow: hidden;
 }
 
-.tool-head {
+.tool__head {
     width: 326px;
     display: flex;
     gap: 30px;
 }
 
-.tool-head-text h3 {
+.tool__head_text h3 {
     width: 229px;
     font-weight: 500;
     font-size: 24px;
@@ -251,19 +251,19 @@ button {
     opacity: 78%;
 }
 
-.tool-head-text p {
+.tool__head_text p {
     color: #FFA537;
     opacity: 55%;
 }
 
-.tool-description {
+.tool__description {
     color: #ffffff;
     opacity: 55%;
     font-weight: 400;
     line-height: 30px;
 }
 
-.tool-buttons {
+.tool__buttons {
     display: flex;
     gap: 124px;
     width: 96px;
@@ -271,12 +271,12 @@ button {
     align-items: center;
 }
 
-.tool-interactions {
+.tool__interactions {
     display: flex;
     gap: 12px;
 }
 
-.tool-visit {
+.tool__visit {
     padding: 9px 35px;
     color: #ffffff;
     font-weight: 600;
@@ -293,7 +293,7 @@ button {
     transform: translateY(-20px);
 }
 
-.tool-visit:hover{
+.tool__visit:hover{
     background-color: #FF6E30;
     color: #FFFFFF;
     padding: 9px 35px;
@@ -313,7 +313,7 @@ button {
     filter: blur(50px);
 }
 
-.load-button {
+.load__button {
     width: 184px;
     height: 64px;
     padding: 17px 38px;
@@ -323,7 +323,7 @@ button {
     margin-bottom: 200px;
 }
 
-.load-button p {
+.load__button p {
     width: 108px;
     color: #FF6E30;
     font-size: 20px;
@@ -331,19 +331,19 @@ button {
     line-height: 30px;
 }
 
-.like-button, .add-outline {
+.like__button, .add__outline {
     padding: 7px;
     background: none;
     border: none;
     cursor: pointer;
 }
 
-.like-button:hover, .add-outline:hover {
+.like__button:hover, .add__outline:hover {
     background-color: #283036;
     border-radius: 8px;
 }
 
-.footer-part {
+.footer__part {
     width: 1224px;
     height: 253px;
     position: relative;
@@ -369,14 +369,14 @@ button {
     padding: 0px 108px 48px 108px;
 }
 
-.footer-info {
+.footer__info {
     width: 1059px;
     display: flex;
     justify-content: center;
     gap: 107px;
 }
 
-.footer-part::before {
+.footer__part::before {
     content: "";
     position: absolute;
     top: -80px;
